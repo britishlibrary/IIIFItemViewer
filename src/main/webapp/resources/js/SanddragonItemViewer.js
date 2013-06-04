@@ -117,7 +117,7 @@ var SanddragonItemViewer = function (controllerName, controllerDivId, itemId, pa
     }
 
     function getItemMetadata() {
-        var metadata = '{"ID":"Genji_monogatari kotoba","ImageList":[';		
+        var metadata = '{"ID":"Genji_monogatari_kotoba","ImageList":[';		
         metadata += '{"PageID":"Or.1287_00","ImageID":"Or.1287_00","RoleType":"Page"}';
         metadata += ',{"PageID":"Or.1287_01","ImageID":"Or.1287_01","RoleType":"Page"}';
         metadata += ',{"PageID":"Or.1287_02","ImageID":"Or.1287_02","RoleType":"Page"}';
@@ -127,7 +127,7 @@ var SanddragonItemViewer = function (controllerName, controllerDivId, itemId, pa
         metadata += ',{"PageID":"Or.1287_06","ImageID":"Or.1287_06","RoleType":"Page"}';
         metadata += ',{"PageID":"Or.1287_07","ImageID":"Or.1287_07","RoleType":"Page"}';
         metadata += ',{"PageID":"Or.1287_08","ImageID":"Or.1287_08","RoleType":"Page"}';
-        metadata += '],"BookMetadata":{"Author":"[Author]","Title":"Genji Monogatari","PublicationDetails":"[Publication Details]","[Any other fields]":"[Other fields]"}}';
+        metadata += '],"BookMetadata":{"Shelfmark:":" Or.1287", "Artist":"Sumiyoshi Jokei, 1599-1670","Title":"Genji monogatari kotoba","PublicationDetails":"[Publication Details]","[Any other fields]":"[Other fields]"}}';
 
         return metadata;
     }
