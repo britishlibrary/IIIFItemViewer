@@ -4,26 +4,24 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>uk.bl.iiifitemviewer</groupId>
-	<artifactId>iiif-itemviewer</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>itemviewer</artifactId>
+	<version>1.0.0.RELEASE</version>
 	<packaging>war</packaging>
-
 	<name>IIIF Item Viewer</name>
 	<url>http://sanddragon.bl.uk/</url>
 
 	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.5</version>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1-b09</version>
 			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
-			<artifactId>jsp-api</artifactId>
-			<version>2.2</version>
-			<scope>provided</scope>
+			<artifactId>javax.servlet.jsp-api</artifactId>
+			<version>2.3.1</version>
 		</dependency>
 	</dependencies>
 

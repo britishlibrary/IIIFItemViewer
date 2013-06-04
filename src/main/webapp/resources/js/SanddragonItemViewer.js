@@ -127,7 +127,7 @@ var SanddragonItemViewer = function (controllerName, controllerDivId, itemId, pa
         metadata += ',{"PageID":"Or.1287_06","ImageID":"Or.1287_06","RoleType":"Page"}';
         metadata += ',{"PageID":"Or.1287_07","ImageID":"Or.1287_07","RoleType":"Page"}';
         metadata += ',{"PageID":"Or.1287_08","ImageID":"Or.1287_08","RoleType":"Page"}';
-        metadata += '],"BookMetadata":{"Shelfmark:":" Or.1287", "Artist":"Sumiyoshi Jokei, 1599-1670","Title":"Genji monogatari kotoba","PublicationDetails":"[Publication Details]","[Any other fields]":"[Other fields]"}}';
+        metadata += '],"BookMetadata":{"Shelfmark":" Or.1287", "Artist":"Sumiyoshi Jokei, 1599-1670","Title":"Genji monogatari kotoba","PublicationDetails":"[Publication Details]","[Any other fields]":"[Other fields]"}}';
 
         return metadata;
     }
