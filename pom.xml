@@ -5,7 +5,7 @@
 
 	<groupId>uk.bl.iiifitemviewer</groupId>
 	<artifactId>itemviewer</artifactId>
-	<version>1.0.0.RELEASE</version>
+	<version>1.0.1.RELEASE</version>
 	<packaging>war</packaging>
 	<name>IIIF Item Viewer</name>
 	<url>http://sanddragon.bl.uk/</url>

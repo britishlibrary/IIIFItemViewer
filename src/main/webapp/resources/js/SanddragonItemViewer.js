@@ -1122,7 +1122,7 @@ var SanddragonItemViewer = function (controllerName, controllerDivId, itemId, pa
     }
 
     function getImageURL(img) {
-        var url = ImageServer + img + "/full/!70,70/0/native.jpg";
+        var url = ImageServer + img + "/full/!70,70/0/native";
         return url;
     }
 
